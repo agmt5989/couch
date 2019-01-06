@@ -9,7 +9,9 @@ var bucket = cluster.openBucket("test");
  
 app.use(Cors());
  
-app.get("/search", (request, response) => { });
+app.get("/search", (request, response) => {
+	
+});
  
 app.listen(3000, () => {
     console.log("Listening at :3000...");
