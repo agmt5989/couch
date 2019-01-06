@@ -4,8 +4,8 @@ const Cors = require("cors");
  
 var app = Express();
 var cluster = new Couchbase.Cluster("couchbase://localhost");
-cluster.authenticate("example", "123456");
-var bucket = cluster.openBucket("example");
+cluster.authenticate("admin", "C!p#3rSECURE");
+var bucket = cluster.openBucket("test");
  
 app.use(Cors());
  
