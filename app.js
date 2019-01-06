@@ -25,6 +25,7 @@ app.get("/search", (request, response) => {
                 artist: item.fields.artist
             };
         });
+        console.log(result);
         response.send(result);
     });
 });
